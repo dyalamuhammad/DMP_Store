@@ -1,0 +1,316 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #141414;
+  color: white;
+}
+nav {
+  display: flex;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 1) 28%,
+    rgba(14, 41, 84, 1) 100%
+  );
+  justify-content: space-between;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+  color: white;
+  /* padding: 20px; */
+  font-weight: 600;
+  margin: 0px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 70px;
+}
+.total {
+  width: 20%;
+  height: 9.5rem;
+  background-color: #1f1f1f;
+  padding: 10px 1rem;
+  margin-right: 4rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 1rem;
+}
+.btn-co {
+  width: 100%;
+  font-size: .9rem;
+  cursor: pointer;
+}
+.btn-co:hover {
+  background-color: #0e2954;
+  color: #efefef;
+}
+.container {
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0rem;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  background-color: #141414;
+}
+.container h1 {
+  font-weight: 400;
+  line-height: 50px;
+}
+.tabel {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  min-height: 100vh;
+  /* display: flex;
+  align-items: center; */
+}
+.tb-keranjang {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+.tb-keranjang td {
+  padding: 10px;
+  /* margin: 10px; */
+}
+.tb-keranjang tr {
+  background-color: #1f1f1f;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 16px solid #222121;
+  height: 150px;
+}
+.tb-total {
+  width: 100%;
+  height: 20%;
+}
+.tb-total td {
+  padding: .7rem 0rem;
+}
+.td-tb-total {
+  text-align: right;
+
+}
+input {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 26px;
+  color: white;
+  border-radius: 6px;
+}
+button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: white;
+  width: 10%;
+  font-weight: 500;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.nomer {
+  width: 5px;
+}
+.gambar {
+  width: 20%;
+  /* background-color: yellowgreen; */
+}
+.gambar img {
+  width: 80%;
+}
+.nama {
+  width: 45%;
+  text-align: left;
+  font-weight: 500;
+}
+.aksi {
+  width: 15%;
+  text-align: center;
+
+}
+.harga {
+  font-weight: 600;
+  color: rgb(40, 95, 185);
+  text-align: center;
+  width: 15%;
+
+}
+.jumlah {
+  text-align: center;
+  width: 15%;
+
+}
+.jumlah input {
+  width: 1.6rem;
+  height: 1.8rem;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-weight: 400px;
+  font-size: 16px;
+  text-align: center;
+}
+.bx {
+  position: relative;
+  font-size: 29px;
+  top: 6px;
+}
+.btn-hapus {
+  width: 4.2rem;
+  background-color: #1a1a1a;
+  font-size: .8rem;
+}
+.btn-hapus:hover {
+  background-color: rgb(163, 5, 5);
+
+}
+.leftNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.garisLogo {
+  font-size: 50px;
+  font-weight: 100;
+  position: relative;
+  bottom: 5px;
+}
+
+.subLogo {
+  position: relative;
+  font-weight: 400;
+  left: 10px;
+  bottom: 5px;
+  font-size: 25px;
+}
+.tdk-ada {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #ababab;
+}
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #1f1f1f;
+  color: #ababab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:992px) {
+  html {
+    font-size: 75%;
+  }
+  .bx {
+    font-size: 1.5rem;
+  }
+  .jumlah {
+    width: 10%;
+  }
+  .jumlah input {
+    width: 1rem;
+    height: .2rem;
+    font-size: 75%;
+  }
+}
+
+@media (max-width:768px) {
+  html {
+    font-size: 85%;
+  }
+  .jumlah {
+    width: 20%;
+  }
+}
+
+@media (max-width:576px) {
+  html {
+    font-size: 70%;
+  }
+  nav img {
+    width: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .total {
+    width: 100%;
+    bottom: 0rem;
+  }
+  .tb-total td {
+    padding: .3rem 0rem;
+  }
+  .garisLogo {
+    font-size: 30px;
+  }
+  .subLogo {
+    font-size: 15px;
+  }
+  .tabel {
+    width: 100%;
+  }
+  .tb-keranjang tr {
+    height: 100px;
+  }
+  .gambar {
+    padding: 0;
+  }
+  .gambar img {
+    width: 100%;
+  }
+  .nama {
+    display: block;
+    width: 80%;
+    height: .9rem;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+  }
+  .harga {
+    width: 80%;
+
+    display: block;
+    text-align: left;
+  }
+  .jumlah {
+    width: 20%;
+  }
+  .jumlah input {
+    width: 1rem;
+    padding: 10px 0px;
+  }
+}
