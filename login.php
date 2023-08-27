@@ -17,7 +17,7 @@ if (mysqli_num_rows($result) > 0) {
     echo "
     <script>
         alert ('Password atau Username Salah');
-        location.href='login.html';
+        location.href='index.html';
     </script>";
 }
 ?>
