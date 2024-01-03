@@ -16,7 +16,7 @@
     <link rel="icon" href="{{ asset('images/logo.png') }}">
   </head>
   <body>
-    <div class="contain py-5 d-flex justify-content-center flex-column">
+    <div class="contain py-5 d-flex justify-content-center flex-column min-vh-100">
       <img src="{{ asset('images/white_logo.png') }}" alt="logo-dmp" class="logo mx-auto">
       <div class="form mx-auto">
         <h1>LOGIN</h1>

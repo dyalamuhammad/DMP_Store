@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ asset('css/login/style.css') }}">
   </head>
   <body>
-    <div class="contain h-auto py-5 d-flex justify-content-center flex-column">
+    <div class="contain h-auto py-5 d-flex justify-content-center flex-column min-vh-100">
       <img src="{{ asset('images/white_logo.png') }}" alt="logo-dmp" class="logo mx-auto">
         <div class="form py-5 h-auto mx-auto">
           <h1>REGISTER</h1>
